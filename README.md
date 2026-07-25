@@ -63,3 +63,7 @@ Search Lens
 
 A lens does not change reality.
 It changes how clearly we can see it.
+
+## Languages
+
+- [Русская версия](README.ru.md)
