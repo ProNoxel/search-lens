@@ -65,11 +65,11 @@ Example structure:
 
 providers/
 
-  yandex/
+    yandex/
 
-  google/
+    google/
 
-  bing/
+    bing/
     
 Each provider is responsible for:
 
@@ -179,11 +179,11 @@ Example:
 
 rules/
 
-  yandex/
+    yandex/
 
-  google/
+    google/
 
-  community/
+    community/
 
 Rules should be:
 
