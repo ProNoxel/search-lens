@@ -63,13 +63,13 @@ Search Providers contain search engine-specific logic.
 
 Example structure:
 
-providers/
+    providers/
 
-    yandex/
+       yandex/
 
-    google/
+       google/
 
-    bing/
+       bing/
     
 Each provider is responsible for:
 
@@ -101,16 +101,16 @@ Each detector analyzes specific signals and provides information to the Classifi
 
 Example:
 
-Sponsored label detected
-+100 points
+     Sponsored label detected
+          +100 points
 
-Advertising redirect detected
-+80 points
+     Advertising redirect detected
+          +80 points
 
-Tracking parameters detected
-+30 points
+     Tracking parameters detected
+          +30 points
 
-Total score: 210
+     Total score: 210
 ---
 
 # Classification Engine
@@ -119,17 +119,17 @@ The Classification Engine converts detected signals into a result category.
 
 Examples:
 
-Category:
-Sponsored
+      Category:
+      Sponsored
 
-Confidence:
-98%
+      Confidence:
+      98%
 
-Category:
-Organic
+      Category:
+      Organic
 
-Confidence:
-95%
+      Confidence:
+      95%
 
 Classification decisions should always be explainable.
 
@@ -177,13 +177,13 @@ Rules define additional detection logic.
 
 Example:
 
-rules/
+    rules/
 
-    yandex/
+       yandex/
 
-    google/
+       google/
 
-    community/
+       community/
 
 Rules should be:
 
