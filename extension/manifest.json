@@ -3,6 +3,16 @@
     "name": "Search Lens" , 
     "version": "0.0.2" ,
     "description": "A transparent search analysis tool that gives users more control over search results." ,
+    "content script": [
+      {
+            "matches": [
+                "http://yandex.ru/*"
+        ] ,
+        "js": [
+            "src/conntet.js"
+        ]
+      }
+    ] ,
     "action": {
         "default_title": "Search Lens"
     }
