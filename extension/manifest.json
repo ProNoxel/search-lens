@@ -9,6 +9,7 @@
                 "https://yandex.ru/*"
         ],
         "js": [
+            "src/detectors/adDetector.js",
             "src/content.js"
         ]
       }
